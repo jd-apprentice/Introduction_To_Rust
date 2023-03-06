@@ -15,4 +15,11 @@ fn main() {
         "Fullname is {}, age {} and birth date {}",
         full_name_owned, age, date_of_birth
     );
+
+    let _full_name: &str = "Jonathan Dyallo";
+    let mut mutable_full_name: &str = "Jonathan Gustavo";
+
+    mutable_full_name = "Jonathan Gustavo Dyallo";
+
+    println!("The full mutable name is: {}", mutable_full_name);
 }
