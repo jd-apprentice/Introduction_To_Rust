@@ -6,4 +6,8 @@ cargo new $topic
 
 cd $topic
 
-echo "🔤 # ${topic^}" >> README.md 
+echo "# 🔤 ${topic^}" >> README.md
+
+cd ..
+
+echo "- [${topic^}](./${topic}/README.md)" >> README.md
