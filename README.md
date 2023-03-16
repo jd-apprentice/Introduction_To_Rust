@@ -19,3 +19,4 @@ This will ask you about the topic and execute a cargo new with that prompt, then
 - [Variables](./variables/README.md)
 - [Shadowing](./shadowing/README.md)
 - [Debug](./debug/README.md)
+- [Literals and Operators](./literals_and_operators/README.md)
